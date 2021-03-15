@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AppBar from './components/app-bar/app-bar'
+import MyAppBar from './components/app-bar/my-app-bar'
 
 class App extends React.Component {
   constructor() {
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <AppBar />
+        <MyAppBar />
       </div>
     )
   }
